@@ -11,7 +11,7 @@ import {
   UnsupportedChainIdError,
   Web3ReactProvider,
   useWeb3React,
-} from '@web3-react/core'
+} from '@web3-react-wan/core'
 import JSBI from 'jsbi'
 import { getConnectors } from './connectors'
 import {

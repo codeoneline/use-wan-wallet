@@ -6,7 +6,7 @@ import {
   ConnectionRejectedError,
   UseWalletProvider,
   useWallet,
-} from 'use-wallet'
+} from 'use-wan-wallet'
 
 const { providers: EthersProviders, utils, EtherSymbol } = ethers
 
@@ -18,7 +18,7 @@ function App() {
 
   return (
     <>
-      <h1>use-wallet</h1>
+      <h1>use-wan-wallet</h1>
 
       {(() => {
         if (wallet.error?.name) {
@@ -65,6 +65,7 @@ function App() {
                 walletconnect
               </button>
               <button onClick={() => activate('walletlink')}>walletlink</button>
+              <button onClick={() => activate('wanmask')}>wanmask</button>
             </div>
           </div>
         )

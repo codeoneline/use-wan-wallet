@@ -2,29 +2,31 @@ import {
   ProvidedConnector,
   UserRejectedRequestError as ProvidedUserRejectedRequestError,
 } from '@aragon/provided-connector'
-import { AuthereumConnector } from '@web3-react/authereum-connector'
-import { FortmaticConnector } from '@web3-react/fortmatic-connector'
+import { AuthereumConnector } from '@web3-react-wan/authereum-connector'
+import { FortmaticConnector } from '@web3-react-wan/fortmatic-connector'
 import {
   FrameConnector,
   UserRejectedRequestError as FrameUserRejectedRequestError,
-} from '@web3-react/frame-connector'
+} from '@web3-react-wan/frame-connector'
 import {
   InjectedConnector,
   // NoEthereumProviderError as InjectedNoEthereumProviderError,
   UserRejectedRequestError as InjectedUserRejectedRequestError,
-} from '@web3-react/injected-connector'
-import { PortisConnector } from '@web3-react/portis-connector'
-import { SquarelinkConnector } from '@web3-react/squarelink-connector'
-import { WalletLinkConnector } from '@web3-react/walletlink-connector'
+} from '@web3-react-wan/injected-connector'
+import { PortisConnector } from '@web3-react-wan/portis-connector'
+import { SquarelinkConnector } from '@web3-react-wan/squarelink-connector'
+import { WalletLinkConnector } from '@web3-react-wan/walletlink-connector'
+import { WanmaskConnector } from '@web3-react-wan/wanmask-connector'
+
 import { ConnectionRejectedError, ConnectorConfigError } from './errors'
 
 import {
   UserRejectedRequestError as WalletConnectUserRejectedRequestError,
   WalletConnectConnector,
-} from '@web3-react/walletconnect-connector'
+} from '@web3-react-wan/walletconnect-connector'
 
 // TODO: fix babel-runtime issue with torus-connector
-import { TorusConnector } from '@web3-react/torus-connector'
+import { TorusConnector } from '@web3-react-wan/torus-connector'
 
 export function getConnectors(chainId, connectorsInitsOrConfigs = {}) {
   // Split the connector initializers from the confs.
@@ -41,6 +43,17 @@ export function getConnectors(chainId, connectorsInitsOrConfigs = {}) {
   )
 
   const connectors = {
+    wanmask: {
+      web3ReactConnector({ chainId }) {
+        return new WanmaskConnector({ supportedChainIds: [chainId] })
+      },
+      handleActivationError(err) {
+        if (err instanceof UserRejectedRequestError) {
+          return new ConnectionRejectedError()
+        }
+      },
+    },
+  
     injected: {
       web3ReactConnector({ chainId }) {
         return new InjectedConnector({ supportedChainIds: [chainId] })

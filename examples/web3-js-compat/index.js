@@ -6,18 +6,18 @@ import {
   ConnectionRejectedError,
   UseWalletProvider,
   useWallet,
-} from 'use-wallet'
+} from 'use-wan-wallet'
 
 function App() {
   const wallet = useWallet()
   const blockNumber = wallet.getBlockNumber()
-  const { current: web3 } = useRef(new Web3(window.ethereum))
+  // const { current: web3 } = useRef(new Web3(window.ethereum))
 
   const activate = connector => wallet.connect(connector)
 
   return (
     <>
-      <h1>use-wallet</h1>
+      <h1>use-wan-wallet</h1>
 
       {(() => {
         if (wallet.error?.name) {
@@ -62,6 +62,9 @@ function App() {
               <button onClick={() => activate('torus')}>torus</button>
               <button onClick={() => activate('walletconnect')}>
                 walletconnect
+              </button>
+              <button onClick={() => activate('wanmask')}>
+                wanmask
               </button>
               <button onClick={() => activate('walletlink')}>walletlink</button>
             </div>
