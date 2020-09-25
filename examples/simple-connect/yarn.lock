@@ -1345,9 +1345,9 @@
     "@web3-react-wan/types" "^6.1.7"
 
 "@web3-react-wan/authereum-connector@^6.1.1":
-  version "6.1.7"
-  resolved "https://registry.npmjs.org/@web3-react-wan/authereum-connector/-/authereum-connector-6.1.7.tgz#5f78b2ec87089e7524b56fb66cfc3687ddb3be56"
-  integrity sha512-cLHIYtCxtcfLtXz+LnE7eJokpRuGopQ1nvqXZIcMT5Lfp1wGnsvHxK+xC1BRzKsrDO6WyHsN8rIFE4GPyunEqg==
+  version "6.1.13"
+  resolved "https://registry.npmjs.org/@web3-react-wan/authereum-connector/-/authereum-connector-6.1.13.tgz#d84cfb30bb93e2934f0f47440837fd5a716655c2"
+  integrity sha512-/Ed+UaNRU8JOXjopkYf/zsFaXuaJjQLWoYmCButV6G1K7SXdmuF0chNCmiKCZG0gk9JVVSpLIZTiv2oMBKrT+Q==
   dependencies:
     "@web3-react-wan/abstract-connector" "^6.1.7"
     "@web3-react-wan/types" "^6.1.7"
@@ -1394,9 +1394,9 @@
     tiny-warning "^1.0.3"
 
 "@web3-react-wan/portis-connector@^6.1.1":
-  version "6.1.7"
-  resolved "https://registry.npmjs.org/@web3-react-wan/portis-connector/-/portis-connector-6.1.7.tgz#4ffd748d2b6217044c5dcc999bbc01b6b126fc43"
-  integrity sha512-Gwsycyu5nSVQnug3h0Y4pI8P8xLnQhjrm23O5PvSyD3oWV97itmk5+d3PD8Qf5HJb+jCukg3Qa21Ornj424IIg==
+  version "6.1.13"
+  resolved "https://registry.npmjs.org/@web3-react-wan/portis-connector/-/portis-connector-6.1.13.tgz#9d0e07db0382089242f60d54be0cee65d457d5c1"
+  integrity sha512-C+QUtEyNPcNHnQGW1vmQlU7tu+bcP5MO86LsnRAxcEe/z1YL/2pIxjZE6WIihKGPpCSy9kaXlXl88Iu7AmlnMg==
   dependencies:
     "@portis/web3" "^2.0.0-beta.54"
     "@web3-react-wan/abstract-connector" "^6.1.7"
@@ -1404,9 +1404,9 @@
     tiny-invariant "^1.0.6"
 
 "@web3-react-wan/squarelink-connector@^6.1.1":
-  version "6.1.7"
-  resolved "https://registry.npmjs.org/@web3-react-wan/squarelink-connector/-/squarelink-connector-6.1.7.tgz#fea44ab3811d6709471f1b06db79660e9528413e"
-  integrity sha512-7NthmlX/r7TOiBVFzoRRWYfhlUH6/IY5PxtXy8n44srZlODvjfRdauQfaXmbpl7v4bH2F7vBzQzEJnENwX8xbg==
+  version "6.1.13"
+  resolved "https://registry.npmjs.org/@web3-react-wan/squarelink-connector/-/squarelink-connector-6.1.13.tgz#137f79dceb9f4dad30157b1350ee28cbcdb1ec0e"
+  integrity sha512-YWqOGDj35khJ4V6kgaXcl198PoZYXJrxtM87DZO4FA+iY0yGxdEdIbRUX6OSLt/Q+e1wb7n8e8H7QUAAKnEKBg==
   dependencies:
     "@web3-react-wan/abstract-connector" "^6.1.7"
     "@web3-react-wan/types" "^6.1.7"
@@ -1428,9 +1428,9 @@
   integrity sha512-nKAWj3Gny8vAg/Dur/Znb1rG7D9p+6uqDeddjXeljfwYmOohr24pwicZMEfHoTIZsI8xXKXyOrXs6/g7Dw5r5w==
 
 "@web3-react-wan/walletconnect-connector@^6.1.4":
-  version "6.1.7"
-  resolved "https://registry.npmjs.org/@web3-react-wan/walletconnect-connector/-/walletconnect-connector-6.1.7.tgz#ab182869a93fc21c15cbe3fb320c822a3af9c019"
-  integrity sha512-hgdjHl7o0NY/Zbs9iRAXmdM0Yy1FxeTygaYcAIjCYElHBopJg4Z+Nvm6fnXvGC4CkrL8D8JAEP6IwYv7lxSTvQ==
+  version "6.1.13"
+  resolved "https://registry.npmjs.org/@web3-react-wan/walletconnect-connector/-/walletconnect-connector-6.1.13.tgz#438d481fc48e94147560195d43c2e25d76c91a1b"
+  integrity sha512-vprZHYOCnci7oWRFHcVsnEnbn2S7foEzS9KJZwmyEA8p77h4KAATg7hYoNKcjuAjvlsWz5nO1kn2pe8NtWtu0w==
   dependencies:
     "@walletconnect/web3-provider" "^1.2.0-alpha.0"
     "@web3-react-wan/abstract-connector" "^6.1.7"
@@ -1438,18 +1438,18 @@
     tiny-invariant "^1.0.6"
 
 "@web3-react-wan/walletlink-connector@^6.1.1":
-  version "6.1.7"
-  resolved "https://registry.npmjs.org/@web3-react-wan/walletlink-connector/-/walletlink-connector-6.1.7.tgz#a86b9aa4ace2b220b12597e5acff88c7e221d170"
-  integrity sha512-lajBwTpsLDW2EWB29hFtE7ZdI8pIb4II2YifFGUoq5NU3NddD9XtUl6M136DY5lQkQkylHSH3A9vZ/YBwLHAAQ==
+  version "6.1.13"
+  resolved "https://registry.npmjs.org/@web3-react-wan/walletlink-connector/-/walletlink-connector-6.1.13.tgz#dcefd25f86f7b80bfe416c11ed531aa3f7eb0493"
+  integrity sha512-iHry6Q3+JftAhoZTaBjRuACV6tW3iC9KHTDqrWABTabrIbFCEL66YhpUcpLlYtuEk9XtVEK0v6OJzOcxcYu/+g==
   dependencies:
     "@web3-react-wan/abstract-connector" "^6.1.7"
     "@web3-react-wan/types" "^6.1.7"
     walletlink "^2.0.2"
 
-"@web3-react-wan/wanmask-connector@^6.1.10":
-  version "6.1.10"
-  resolved "https://registry.npmjs.org/@web3-react-wan/wanmask-connector/-/wanmask-connector-6.1.10.tgz#55cf4de406f8200dde4d28c22a910747d25d4f96"
-  integrity sha512-8NrFfqdR1uTm5Agya0IjeWCR9d5/LX6UZqGGhlA10wVnuR+zKY/L8P5dGYUZ/qRXIn5gfLBCeUdPr9HDiOnfRw==
+"@web3-react-wan/wanmask-connector@^6.1.13":
+  version "6.1.13"
+  resolved "https://registry.npmjs.org/@web3-react-wan/wanmask-connector/-/wanmask-connector-6.1.13.tgz#3eef78b3b068c6cedc9f6d209799937795aad078"
+  integrity sha512-CaN1lqYIt76M87B7B3EVQcHNys4+drIk0uWTAkfTTxQ/ndDPIqXBSdenaKYuLegt3uon8n6YNikHIKHZstN3DQ==
   dependencies:
     "@web3-react-wan/abstract-connector" "^6.1.7"
     "@web3-react-wan/types" "^6.1.7"
@@ -2510,12 +2510,12 @@ browserslist@^3.2.6:
     electron-to-chromium "^1.3.47"
 
 browserslist@^4.0.0, browserslist@^4.1.0, browserslist@^4.12.0, browserslist@^4.8.5:
-  version "4.14.4"
-  resolved "https://registry.npmjs.org/browserslist/-/browserslist-4.14.4.tgz#66a18131439f9e16c3da7f352518dfa12f60b0e3"
-  integrity sha512-7FOuawafVdEwa5Jv4nzeik/PepAjVte6HmVGHsjt2bC237jeL9QlcTBDF3PnHEvcC6uHwLGYPwZHNZMB7wWAnw==
+  version "4.14.5"
+  resolved "https://registry.npmjs.org/browserslist/-/browserslist-4.14.5.tgz#1c751461a102ddc60e40993639b709be7f2c4015"
+  integrity sha512-Z+vsCZIvCBvqLoYkBFTwEYH3v5MCQbsAjp50ERycpOjnPmolg1Gjy4+KaWWpm8QOJt9GHkhdqAl14NpCX73CWA==
   dependencies:
     caniuse-lite "^1.0.30001135"
-    electron-to-chromium "^1.3.570"
+    electron-to-chromium "^1.3.571"
     escalade "^3.1.0"
     node-releases "^1.1.61"
 
@@ -2676,9 +2676,9 @@ caniuse-api@^3.0.0:
     lodash.uniq "^4.5.0"
 
 caniuse-lite@^1.0.0, caniuse-lite@^1.0.30000844, caniuse-lite@^1.0.30001135:
-  version "1.0.30001135"
-  resolved "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001135.tgz#995b1eb94404a3c9a0d7600c113c9bb27f2cd8aa"
-  integrity sha512-ziNcheTGTHlu9g34EVoHQdIu5g4foc8EsxMGC7Xkokmvw0dqNtX8BS8RgCgFBaAiSp2IdjvBxNdh0ssib28eVQ==
+  version "1.0.30001137"
+  resolved "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001137.tgz#6f0127b1d3788742561a25af3607a17fc778b803"
+  integrity sha512-54xKQZTqZrKVHmVz0+UvdZR6kQc7pJDgfhsMYDG19ID1BWoNnDMFm5Q3uSBSU401pBvKYMsHAt9qhEDcxmk8aw==
 
 caseless@~0.12.0:
   version "0.12.0"
@@ -3484,10 +3484,10 @@ ee-first@1.1.1:
   resolved "https://registry.npmjs.org/ee-first/-/ee-first-1.1.1.tgz#590c61156b0ae2f4f0255732a158b266bc56b21d"
   integrity sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=
 
-electron-to-chromium@^1.3.47, electron-to-chromium@^1.3.570:
-  version "1.3.571"
-  resolved "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.3.571.tgz#e57977f1569f8326ae2a7905e26f3943536ba28f"
-  integrity sha512-UYEQ2Gtc50kqmyOmOVtj6Oqi38lm5yRJY3pLuWt6UIot0No1L09uu6Ja6/1XKwmz/p0eJFZTUZi+khd1PV1hHA==
+electron-to-chromium@^1.3.47, electron-to-chromium@^1.3.571:
+  version "1.3.572"
+  resolved "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.3.572.tgz#62d87dfe32ca1f6b9a0f76917d24f66e94e19c01"
+  integrity sha512-TKqdEukCCl7JC20SwEoWTbtnGt4YjfHWAv4tcNky0a9qGo0WdM+Lrd60tps+nkaJCmktKBJjr99fLtEBU1ipWQ==
 
 elliptic@6.5.2:
   version "6.5.2"

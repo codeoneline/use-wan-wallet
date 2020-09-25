@@ -16,7 +16,9 @@ import {
 import { PortisConnector } from '@web3-react-wan/portis-connector'
 import { SquarelinkConnector } from '@web3-react-wan/squarelink-connector'
 import { WalletLinkConnector } from '@web3-react-wan/walletlink-connector'
-import { WanmaskConnector } from '@web3-react-wan/wanmask-connector'
+import {
+  WanmaskConnector,
+  UserRejectedRequestError as  WanmaskUserRejectedRequestError} from '@web3-react-wan/wanmask-connector'
 
 import { ConnectionRejectedError, ConnectorConfigError } from './errors'
 
@@ -48,7 +50,7 @@ export function getConnectors(chainId, connectorsInitsOrConfigs = {}) {
         return new WanmaskConnector({ supportedChainIds: [chainId] })
       },
       handleActivationError(err) {
-        if (err instanceof UserRejectedRequestError) {
+        if (err instanceof WanmaskUserRejectedRequestError) {
           return new ConnectionRejectedError()
         }
       },

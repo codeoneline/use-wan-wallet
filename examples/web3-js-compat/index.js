@@ -99,12 +99,13 @@ function App() {
 
 ReactDOM.render(
   <UseWalletProvider
-    chainId={1}
+    chainId={1,3}
     connectors={{
       fortmatic: { apiKey: '' },
       portis: { dAppId: '' },
       walletconnect: { rpcUrl: 'https://mainnet.eth.aragon.network/' },
       walletlink: { url: 'https://mainnet.eth.aragon.network/' },
+      wanmask: { rpcUrl: 'http://192.168.1.2:8545/'},
     }}
   >
     <App />

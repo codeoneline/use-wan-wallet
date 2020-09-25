@@ -1503,10 +1503,10 @@
     "@web3-react-wan/types" "^6.1.7"
     walletlink "^2.0.2"
 
-"@web3-react-wan/wanmask-connector@^6.1.10":
-  version "6.1.10"
-  resolved "https://registry.npmjs.org/@web3-react-wan/wanmask-connector/-/wanmask-connector-6.1.10.tgz#55cf4de406f8200dde4d28c22a910747d25d4f96"
-  integrity sha512-8NrFfqdR1uTm5Agya0IjeWCR9d5/LX6UZqGGhlA10wVnuR+zKY/L8P5dGYUZ/qRXIn5gfLBCeUdPr9HDiOnfRw==
+"@web3-react-wan/wanmask-connector@^6.1.13":
+  version "6.1.13"
+  resolved "https://registry.npmjs.org/@web3-react-wan/wanmask-connector/-/wanmask-connector-6.1.13.tgz#3eef78b3b068c6cedc9f6d209799937795aad078"
+  integrity sha512-CaN1lqYIt76M87B7B3EVQcHNys4+drIk0uWTAkfTTxQ/ndDPIqXBSdenaKYuLegt3uon8n6YNikHIKHZstN3DQ==
   dependencies:
     "@web3-react-wan/abstract-connector" "^6.1.7"
     "@web3-react-wan/types" "^6.1.7"

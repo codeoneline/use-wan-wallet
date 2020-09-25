@@ -31,7 +31,7 @@
     "@web3-react-wan/torus-connector": "^6.1.1",
     "@web3-react-wan/walletconnect-connector": "^6.1.4",
     "@web3-react-wan/walletlink-connector": "^6.1.1",
-    "@web3-react-wan/wanmask-connector": "^6.1.10",
+    "@web3-react-wan/wanmask-connector": "^6.1.13",
     "jsbi": "^3.1.1"
   },
   "devDependencies": {

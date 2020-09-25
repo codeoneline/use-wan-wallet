@@ -1,6 +1,6 @@
 const KNOWN_CHAINS = new Map([
   ['1', 'Mainnet'],
-  ['3', 'Ropsten'],
+  ['3', 'Testnet'],
   ['4', 'Rinkeby'],
   ['5', 'Goerli'],
   ['100', 'xDai'],
